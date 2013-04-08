@@ -39,11 +39,18 @@ CONVERTING RULES
     - `rule.ignore` is a `list` contains ignorable method names. (e.g: `__init__`, `some_private`)
     - `rule.map` is a `dict` contains direct method-to-url maps. (e.g: `index` > `/`)
 
-See `flasky_test.py` to reveal usages.
+See [`flasky_test.py`](https://github.com/lqez/flasky/blob/master/flasky/tests/flasky_test.py) to reveal usages.
+
+
+INSTALL
+-------
+    pip install flasky
+
 
 LICENSE
 -------
 Distributed under MIT license.
+
 
 AUTHOR
 ------
