@@ -1,5 +1,6 @@
 flasky
 ======
+[![Build Status](https://travis-ci.org/lqez/flasky.png?branch=master)](https://travis-ci.org/lqez/flasky)
 
 A Lazy man's Flask application.
 
