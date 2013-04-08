@@ -1,8 +1,6 @@
 #!/usr/bin/env python
-try:
-    from setuptools import setup
-except ImportError:
-    from distutils.core import setup  # NOQA
+from setuptools import setup
+from setuptools import find_packages
 
 
 classifiers = [
@@ -20,7 +18,7 @@ classifiers = [
 setup(
     name='Flasky',
     version='0.1.0',
-    py_modules=['flasky', 'flasky_test'],
+    packages=find_packages(),
     author='Park Hyunwoo',
     author_email='ez.amiryo' '@' 'gmail.com',
     maintainer='Park Hyunwoo',
@@ -31,5 +29,5 @@ setup(
     install_requires=[
         "Flask >= 0.9",
     ],
-    test_suite='flasky_test',
+    test_suite='flasky.tests.flasky_test',
 )
