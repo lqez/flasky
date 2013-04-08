@@ -20,7 +20,7 @@ classifiers = [
 setup(
     name='Flasky',
     version='0.1.0',
-    py_modules=['flasky'],
+    py_modules=['flasky', 'flasky_test'],
     author='Park Hyunwoo',
     author_email='ez.amiryo' '@' 'gmail.com',
     maintainer='Park Hyunwoo',
