@@ -27,7 +27,7 @@ class MyGorgeousWebSpace(Flasky):
 
     def post(self, slug=None):
         if slug:
-            return "I didn't have chance to write about %s." % slug
+            return "I hadn't had a chance to write about %s." % slug
         else:
             return "What did you expect from me? Ummmm... like a list of blog posts?"
 
@@ -70,7 +70,7 @@ class FlaskyTestCase(unittest.TestCase):
 
     def test_parameter_202(self):
         rv = self.app.get('/post/django')
-        assert rv.data == "I didn't have chance to write about django."
+        assert rv.data == "I hadn't had a chance to write about django."
 
 
 if __name__ == "__main__":

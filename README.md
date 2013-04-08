@@ -24,9 +24,9 @@ USAGE
 
         def post(self, slug=None):
             if slug:
-                return "I didn't write about %s." % slug
+                return "I hadn't had a chance to write about %s." % slug
             else:
-                return "What did you expect from me? Ummmm.. like a list of blog posts?"
+                return "What did you expect from me? Ummmm... like a list of blog posts?"
 
 
 CONVERTING RULES
