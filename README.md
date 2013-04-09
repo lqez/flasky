@@ -29,6 +29,9 @@ USAGE
                 return "What did you expect from me? Ummmm... like a list of blog posts?"
 
 
+    MyGorgeousWebSpace().app.run()  # Let'zzzz serve it!
+    
+    
 CONVERTING RULES
 ----------------
 
