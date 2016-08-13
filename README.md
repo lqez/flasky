@@ -2,7 +2,7 @@ flasky
 ======
 [![Build Status](https://travis-ci.org/lqez/flasky.png?branch=master)](https://travis-ci.org/lqez/flasky)
 
-A Lazy man's Flask application.
+A Lazy one's Flask application.
 
 Convert your python class into a web application via `Flask`.
 
